@@ -5,27 +5,28 @@ SELECT
   [FullDateAlternateKey] AS Date, 
   [EnglishDayNameOfWeek] AS Day, 
   [EnglishMonthName] AS Month, 
-  Left([EnglishMonthName], 3) AS MonthShort,   
+  Left([EnglishMonthName], 3) AS MonthShort, 
   [MonthNumberOfYear] AS MonthNo, 
   [CalendarQuarter] AS Quarter, 
   [CalendarYear] AS Year 
 FROM 
- [AdventureWorksDW2019].[dbo].[DimDate]
+  [AdventureWorksDW2019].[dbo].[DimDate] 
 WHERE 
   CalendarYear >= 2019
 
--- Cleansed DIM_Customers Table --
 
+-- Cleansed DIM_Customers Table --
 SELECT 
   c.customerkey AS CustomerKey, 
   c.firstname AS [First Name], 
   c.lastname AS [Last Name], 
   c.firstname + ' ' + c.lastname AS [Full Name], 
-  CASE c.gender WHEN 'M' THEN 'Male' WHEN 'F' THEN 'Female' END AS Gender,
+  CASE c.gender WHEN 'M' THEN 'Male' WHEN 'F' THEN 'Female' END AS Gender, 
   c.datefirstpurchase AS DateFirstPurchase, 
   g.city AS [Customer City] -- Joined in Customer City from Geography Table
 FROM 
-  [AdventureWorksDW2019].[dbo].[DimCustomer] as c
+  [AdventureWorksDW2019].[dbo].[DimCustomer] as c 
   LEFT JOIN dbo.dimgeography AS g ON g.geographykey = c.geographykey 
 ORDER BY 
   CustomerKey ASC -- Ordered List by CustomerKey
+
