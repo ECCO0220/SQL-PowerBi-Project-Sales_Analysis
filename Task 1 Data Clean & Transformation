@@ -1,5 +1,4 @@
 --Cleansed DIM_Date Table--
-
 SELECT 
   [DateKey], 
   [FullDateAlternateKey] AS Date, 
@@ -29,6 +28,7 @@ FROM
   LEFT JOIN dbo.dimgeography AS g ON g.geographykey = c.geographykey 
 ORDER BY 
   CustomerKey ASC -- Ordered List by CustomerKey
+
 
 -- Cleansed DIM_Products Table --
 Select 
