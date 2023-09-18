@@ -29,3 +29,12 @@ Let me know if you need anything else!
 | 2    | Sales Representative | View detailed Internet Sales per Customers | Identify top customers and opportunities for upselling | Power BI dashboard with customer-specific filters       |
 | 3    | Sales Representative | View detailed Internet Sales per Products  | Identify top-selling products                        | Power BI dashboard with product-specific filters        |
 | 4    | Sales Manager        | Access a dashboard of internet sales | Track sales performance against budget                | Power BI dashboard with graphs and KPIs comparing to budget |
+
+4)Technologies:
+
+SQL Server and SQL Server Managemet Studio
+
+5）Dataset:
+
+https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2019.bak
+https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksLT2019.bak
