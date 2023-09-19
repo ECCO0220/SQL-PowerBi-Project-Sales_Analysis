@@ -59,18 +59,14 @@ This data model also shows how FACT_Budget hsa been connected to FACT_InternetSa
 
 2.Sales Management Dashboard
 
-The finished sales management dashboard with one page with works as a dashboard and overview, with another page focused on combining tables for necessary details and visualizations to show sales over time, per customers.
+The finished sales management dashboard with one page with works as a dashboard and overview, with two other pages focused on combining tables for necessary details and visualizations to show sales over time, per customers and per products.
 
-https://github.com/ECCO0220/SQL-PowerBi-Project_Sales_Analysis/blob/374ac01fe05e850c52e233c76b602b378e1d3244/Sales%20report.pbix
-
-https://app.powerbi.com/view?r=eyJrIjoiM2VlMjE2ZGItMDA4YS00NjI2LTliZjAtZjc4MGRhMjAxMWIzIiwidCI6IjZhMjAxYzcyLWZlNDEtNDAzMC1iYWUzLTdmYjM5NzJiYjYxMyIsImMiOjh9
+https://app.powerbi.com/view?r=eyJrIjoiNzYyN2U1OGUtNjQ4ZC00YWE0LWJjMGUtN2M4OTdlYjAzNGE0IiwidCI6IjZhMjAxYzcyLWZlNDEtNDAzMC1iYWUzLTdmYjM5NzJiYjYxMyIsImMiOjh9
 
 <img width="719" alt="image" src="https://github.com/ECCO0220/SQL-PowerBi-Project_Sales_Analysis/assets/88352796/48fa1e30-c716-407d-9c72-735fbf0a5768">
 
+<img width="722" alt="image" src="https://github.com/ECCO0220/SQL-PowerBi-Project_Sales_Analysis/assets/88352796/32525549-f815-454d-8c83-44b32bd2cbfd">
 
-
-
-<img width="722" alt="image" src="https://github.com/ECCO0220/SQL-PowerBi-Project_Sales_Analysis/assets/88352796/74b2b8bd-8c4f-4ca9-90dd-0fd5ad9ab58b">
-
+<img width="722" alt="image" src="https://github.com/ECCO0220/SQL-PowerBi-Project_Sales_Analysis/assets/88352796/5896e783-32dc-412e-91fe-86cf58987613">
 
 
