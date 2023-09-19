@@ -1,5 +1,5 @@
 # SQL-PowerBi-Project_Sales_Analysis
-1）Business Request
+**1）Business Request**
    
 Steven  - Sales Manager:  
 
@@ -14,13 +14,13 @@ Let me know if you need anything else!
 
 // Steven
 
-2）Business Demand Overview
+**2）Business Demand Overview**
 -	Reporter: Steven – Sales Manager
 -	Value of Change: Visual dashboards and improved Sales reporting or follow up or sales force
 -	Necessary Systems: Power BI, CRM System
 -	Other Relevant Info: Budgets have been delivered in Excel for 2023
 
-3）User Stories:
+**3）User Stories:**
 
 
 | No # | As a (role)          | I want (request / demand)         | So that I (user value)                               | Acceptance Criteria                                      |
@@ -30,11 +30,11 @@ Let me know if you need anything else!
 | 3    | Sales Representative | View detailed Internet Sales per Products  | Identify top-selling products                        | Power BI dashboard with product-specific filters        |
 | 4    | Sales Manager        | Access a dashboard of internet sales | Track sales performance against budget                | Power BI dashboard with graphs and KPIs comparing to budget |
 
-4)Technologies:
+**4）Technologies:**
 
-SQL Server and SQL Server Managemet Studio
+SQL Server, SQL Server Managemet Studio and Power Bi
 
-5）Dataset:
+**5）Dataset:**
 
 https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2019.bak
 
@@ -42,5 +42,34 @@ https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks
 
 https://github.com/techtalkcorner/SampleDemoFiles/blob/master/Database/AdventureWorks/Update_AdventureWorksDW_Data.sql
 
-SalesBudget.xlsx
+https://github.com/ECCO0220/SQL-PowerBi-Project_Sales_Analysis/blob/8d0f98a0594488b7d2b7198d140e635268c7e16c/SalesBudget.xlsx
+
+**6）Task Breakdown**
+
+[Task 1 Data Clean & Transformation](https://github.com/ECCO0220/SQL-PowerBi-Project_Sales_Analysis/blob/8d0f98a0594488b7d2b7198d140e635268c7e16c/Task%201%20Data%20Clean%20%26%20Transformation)
+
+Task 2 Create Dashboard
+1. Data Model
+Below is a screenshot of the data model after cleansed and prepared tables were read into Power BI.
+
+This data model also shows how FACT_Budget hsa been connected to FACT_InternetSales and other necessary DIM tables.
+
+<img width="631" alt="image" src="https://github.com/ECCO0220/SQL-PowerBi-Project_Sales_Analysis/assets/88352796/f4d757b9-b1d0-4373-b488-91c579f344c5">
+
+2.Sales Management Dashboard
+
+The finished sales management dashboard with one page with works as a dashboard and overview, with another page focused on combining tables for necessary details and visualizations to show sales over time, per customers.
+
+https://github.com/ECCO0220/SQL-PowerBi-Project_Sales_Analysis/blob/374ac01fe05e850c52e233c76b602b378e1d3244/Sales%20report.pbix
+
+https://app.powerbi.com/view?r=eyJrIjoiM2VlMjE2ZGItMDA4YS00NjI2LTliZjAtZjc4MGRhMjAxMWIzIiwidCI6IjZhMjAxYzcyLWZlNDEtNDAzMC1iYWUzLTdmYjM5NzJiYjYxMyIsImMiOjh9
+
+<img width="719" alt="image" src="https://github.com/ECCO0220/SQL-PowerBi-Project_Sales_Analysis/assets/88352796/48fa1e30-c716-407d-9c72-735fbf0a5768">
+
+
+
+
+<img width="722" alt="image" src="https://github.com/ECCO0220/SQL-PowerBi-Project_Sales_Analysis/assets/88352796/74b2b8bd-8c4f-4ca9-90dd-0fd5ad9ab58b">
+
+
 
