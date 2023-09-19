@@ -51,6 +51,7 @@ https://github.com/ECCO0220/SQL-PowerBi-Project_Sales_Analysis/blob/8d0f98a05944
 Task 2 Create Dashboard
 
 1.Data Model
+
 Below is a screenshot of the data model after cleansed and prepared tables were read into Power BI.
 
 This data model also shows how FACT_Budget hsa been connected to FACT_InternetSales and other necessary DIM tables.
